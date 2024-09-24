@@ -1,0 +1,21 @@
+
+
+
+
+
+
+div > p {
+    display: none;
+}
+
+
+div:hover > p{
+    display: block;
+    background-color: yellow;
+}
+
+/* O primeiro seletor, na linha 8, vai esconder o parágrafo que está dentro da div 
+(representado em CSS como div > p) através da propriedade display com o valor 
+none. 
+O segundo seletor, na linha 12, vai fazer o parágrafo escondido reaparecer, com o 
+fundo pintado de amarelo apenas quando passarmos o mouse sobre ele. */

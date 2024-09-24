@@ -1,0 +1,44 @@
+
+
+
+
+
+/* Uso das pseudo-class :visited; :hover */
+
+body {
+    font: normal 1em Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+  
+a:visited {
+    color: darkred;
+}
+
+ a:hover {
+    text-decoration: underline;
+ }
+
+ .especial:hover {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+ }
+ /* Uso dos pseudo-elements ::before; ::after */
+ .especial::before {
+    content: '>>';
+    font-weight: lighter;
+ }
+
+ .especial::after {
+    content: '<<';
+    font-weight: lighter;
+ }
+ /*Existem várias pseudo-classes usados na CSS para estilos, podemos citar :hover, :visited, :active, :checked, :empty e :focus. */
+
+ /*Existem vários pseudo-elementos usados na CSS 
+são ::before, ::after, ::first-letter, ::first-line.*/
